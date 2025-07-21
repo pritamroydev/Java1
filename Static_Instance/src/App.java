@@ -28,3 +28,10 @@ class ABC{
     }
     
 }
+
+// Static block 1
+// Static block 2
+// The value of b is=7
+// Instance block 1
+// Instance block 2
+// The value of a is=2
