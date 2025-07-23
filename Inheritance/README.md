@@ -1,18 +1,33 @@
-## Getting Started
+# 🔢 Scientific Calculator in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> A simple scientific calculator built in Java using **inheritance** and **basic OOP concepts**.
 
-## Folder Structure
+This project demonstrates how a child class can extend the functionality of a parent class, and how trigonometric operations can be integrated using Java’s built-in `Math` library.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📌 Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Basic arithmetic operations:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division (with error handling for division by 0)
+- Scientific operations:
+  - Sine
+  - Cosine
+- Demonstrates **inheritance** (`SciCalc` extends `Calculator`)
+- Clean method structure for each operation
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🧠 Concepts Demonstrated
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- ✅ **Inheritance** (Extending `Calculator` in `SciCalc`)
+- ✅ **Method definitions and usage**
+- ✅ **Encapsulation** (using public methods)
+- ✅ **Error handling**
+- ✅ Use of **Java Math library** for scientific functions
+
+---
+
