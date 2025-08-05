@@ -6,7 +6,7 @@ class Outer{
     // Static Nested Class
     static class StaticNested{
         void display(){
-            System.out.println("Static nexted class: "+x);
+            System.out.println("Static nested class: "+x);
         }
     }
 
@@ -15,7 +15,7 @@ class Outer{
     // Member Inner Class (Non-Static)
     class Inner{
         void display(){
-            System.out.println("Innter class: "+x+", "+y);
+            System.out.println("Inner class: "+x+", "+y);
             System.out.println("Member Inner Class: "+msg);
         }
     }
