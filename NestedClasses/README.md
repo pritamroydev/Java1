@@ -35,7 +35,7 @@ static class StaticNested {
 ------------------------------------
 
 
-## 2. Member Inner Class (Non-static)
+### 2. Member Inner Class (Non-static)
 - Has access to all members (static, non-static, private) of the outer class.
 - Must be created with an instance of the outer class.
 
@@ -51,7 +51,7 @@ class Inner {
 ------------------------------------
 
 
-## 3. Local Inner Class
+### 3. Local Inner Class
 - Declared within a method of the outer class.
 - Can access method variables only if they are effectively final.
 - Usually used for simple logical encapsulation inside methods.
@@ -74,7 +74,7 @@ void outerMethod() {
 ------------------------------------
 
 
-## 4. Anonymous Inner Class
+### 4. Anonymous Inner Class
 - A class without a name.
 - Instantiated and declared at the same time, usually to override methods or provide quick implementation.
 
