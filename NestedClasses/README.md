@@ -55,6 +55,7 @@ class Inner {
 - Declared within a method of the outer class.
 - Can access method variables only if they are effectively final.
 - Usually used for simple logical encapsulation inside methods.
+- Cannot use private or any other access modifiers for local variables inside a method, because local variables are accessible only within that method. This applies to variables used in Local Inner Classes as well.
 
 ```java
 void outerMethod() {
