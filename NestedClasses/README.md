@@ -19,7 +19,7 @@ A nested class is a class defined within another class. It can access members of
 
 ## 🔍 Types of Nested Classes
 
-### 1. 🔹 Static Nested Class
+### 1. Static Nested Class
 - Declared with the `static` keyword.
 - Can access **only static** members of the outer class.
 - Does **not need** an instance of the outer class to be created.
@@ -35,7 +35,7 @@ static class StaticNested {
 ------------------------------------
 
 
-## 2. 🔸 Member Inner Class (Non-static)
+## 2. Member Inner Class (Non-static)
 - Has access to all members (static, non-static, private) of the outer class.
 - Must be created with an instance of the outer class.
 
@@ -51,7 +51,7 @@ class Inner {
 ------------------------------------
 
 
-## 3. 🧷 Local Inner Class
+## 3. Local Inner Class
 - Declared within a method of the outer class.
 - Can access method variables only if they are effectively final.
 - Usually used for simple logical encapsulation inside methods.
@@ -74,7 +74,7 @@ void outerMethod() {
 ------------------------------------
 
 
-## 4. 🧨 Anonymous Inner Class
+## 4. Anonymous Inner Class
 - A class without a name.
 - Instantiated and declared at the same time, usually to override methods or provide quick implementation.
 
@@ -87,7 +87,7 @@ Outer.Greetings ob4 = new Outer().new Greetings() {
 ob4.wishes();
 ```
 
-## ▶️ How to Run
+## ▶ How to Run
 Compile and run the Outer.java file:
 
 ```java
@@ -97,7 +97,7 @@ java Outer
 
 ------------------------------------
 
-## 📌 Output Sample
+## Output Sample
 ```text
 Static nexted class: 10
 Innter class: 10, 15
